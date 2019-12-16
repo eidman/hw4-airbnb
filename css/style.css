@@ -1,0 +1,157 @@
+/* reset box sizing*/
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+@font-face {
+  font-family: "circular-light";
+  src: url(../fonts/CircularStd-Light.otf);
+}
+
+@font-face {
+  font-family: "circular-book";
+  src: url(../fonts/CircularStd-Book.otf);
+}
+
+@font-face {
+  font-family: "circular-medium";
+  src: url(../fonts/CircularStd-Medium.otf);
+}
+
+@font-face {
+  font-family: "circular-bold";
+  src: url(../fonts/CircularStd-Bold.otf);
+}
+
+.content {
+  width: 100%;
+  padding: 0px 60px;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+  margin-bottom: 5px;
+  font-family: "circular-light";
+}
+
+.text-container {
+  width: 50%;
+}
+
+h3 {
+  font-family: "circular-medium";
+  font-size: 10px;
+  color: #808080;
+  margin-top: 40px;
+}
+
+h1 {
+  font-family: "circular-medium";
+  font-size: 26px;
+  letter-spacing: .4px;
+  color: #484848;
+}
+
+p {
+  font-size: 20px;
+  letter-spacing: .1px;
+  line-height: 250px;
+  color: #484848;
+  margin-bottom: 35px;
+}
+
+h2 {
+  font-family: "circular-medium";
+  font-size: 20px;
+  color: #484848;
+  margin-bottom: 5px;
+}
+
+.body-small {
+  font-size: 14px;
+  letter-spacing: .1px;
+  line-height: 18px;
+  color: #808080;
+  margin-bottom: 27px;
+}
+
+/* helpers */
+
+text-book {
+  font-family: "circular-book";
+}
+
+text-medium {
+  font-family: "circular-medium";
+}
+
+text-bold {
+  font-family: "circular-bold";
+}
+
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.container {
+  margin-bottom: 60px;
+}
+
+.card {
+  width: 16.67%;
+  margin-right: 10px;
+}
+
+.card img {
+  border-radius: 3px;
+  margin-right: 20px;
+}
+
+.card h3 {
+  margin-top: 10px;
+}
+
+.card h5 {
+  font-family: "circular-medium";
+  font-size: 14px;
+  color: #383838;
+}
+
+.card h6 {
+  font-size: 11px;
+  color: #888888;
+  margin-top: 7px;
+}
+
+.card .rating {
+  font-family: "circular-medium";
+  font-size: 9.5px;
+  color: #00797e;
+  margin-top: 100px;
+}
+
+.card .reviewers {
+  font-family: "circular-book";
+  font-size: 9.5px;
+  color: #A9A9A9;
+}
+
+.show-all {
+  font-size: 13px;
+  color: #00797e;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 75px;
+}
