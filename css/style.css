@@ -65,7 +65,7 @@ h1 {
 p {
   font-size: 20px;
   letter-spacing: .1px;
-  line-height: 250px;
+  line-height: 25px;
   color: #484848;
   margin-bottom: 35px;
 }
@@ -120,7 +120,7 @@ text-bold {
 }
 
 .card h3 {
-  margin-top: 10px;
+  margin-top: 7px;
 }
 
 .card h5 {
@@ -133,13 +133,20 @@ text-bold {
   font-size: 11px;
   color: #888888;
   margin-top: 7px;
+  margin-bottom: -5px;
 }
 
 .card .rating {
   font-family: "circular-medium";
   font-size: 9.5px;
   color: #00797e;
-  margin-top: 100px;
+  /* why does this not work? padding-top: 0px; */
+}
+
+i {
+  font-size: 7px;
+  color: #00797e;
+  padding: 0px 4px 0px 1px;
 }
 
 .card .reviewers {
