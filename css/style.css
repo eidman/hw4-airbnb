@@ -14,38 +14,6 @@ img {
   width: 100%;
 }
 
-/* The overlay effect (full height and width) - lays on top of the container and over the image
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .3s ease;
-  background-color: red;
-}
-
-/* When you mouse over the container, fade in the overlay icon
-.container-img:hover .overlay {
-  opacity: 1;
-}
-
-/* The icon inside the overlay is positioned in the middle vertically and horizontally */
-/* .icon {
-  color: white;
-  font-size: 100px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-*/
-
 @font-face {
   font-family: "circular-light";
   src: url(../fonts/CircularStd-Light.otf);
@@ -171,13 +139,13 @@ text-bold {
 .card .rating {
   font-family: "circular-medium";
   font-size: 9.5px;
-  color: #00797e;
+  color: #008489;
   /* why does this not work? padding-top: 0px; */
 }
 
 i {
   font-size: 7px;
-  color: #00797e;
+  color: #008489;
   padding: 0px 4px 0px 1px;
 }
 
@@ -187,10 +155,21 @@ i {
   color: #A9A9A9;
 }
 
-.show-all {
-  font-size: 13px;
-  color: #00797e;
-  font-weight: bold;
+/* unvisited link */
+a {
+  font-family: "circular-book";
+  display: inline-block;
+  text-decoration: none;
+  font-size: 17px;
+  letter-spacing: .3px;
+  color: #008489;
+  font-weight: 600;
   margin-top: 15px;
   margin-bottom: 75px;
+}
+
+
+/* mouse over link */
+a:hover {
+  text-decoration: underline;
 }
